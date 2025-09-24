@@ -1,4 +1,4 @@
-Go Unit Testing
+Go Unit Testing in Go
 
 This repository demonstrates foundational unit testing practices in Go (Golang). It includes examples of basic arithmetic operations with a Calculator struct, showcasing how to implement and test methods using Go's built-in testing package.
 
@@ -39,11 +39,11 @@ func (c *Calculator) Divide(a, b int) (int, error) {
 }
 ```
 
-🧪 Unit Tests
+## 🧪 Unit Tests
 
 Unit tests are located in calculator_test.go. They cover various scenarios for each arithmetic method, ensuring correctness and handling edge cases.
 
-🚀 Running the Application
+## 🚀 Running the Application
 
 To execute the application:
 
@@ -58,7 +58,7 @@ cd go-unit-testing
    go run main.go
 ```
 
-🧪 Running Tests
+## 🧪 Running Tests
 
 To run the unit tests:
 
@@ -72,7 +72,7 @@ go test -v ./...
 
 ```
 
-📋 Example Output
+## 📋 Example Output
 
 ```
 === RUN   TestCalculator
@@ -89,13 +89,13 @@ PASS
 ok  	go-unit-testing	0.001s
 ```
 
-🔧 Dependencies
+## 🔧 Dependencies
 
 Go 1.18 or higher
 
 No external libraries are required; uses Go's standard testing package.
 
-📝 License
+## 📝 License
 
 This project is open-source and available under the MIT License.
 
